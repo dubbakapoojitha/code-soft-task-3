@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+    <div class="calculator">
+        
+    <input type="text" class="display" id="display" readonly>
+    <div class="button">
+        <input type="button" value="9" onclick="slove(9)">
+        <input type="button" value="8" onclick="slove(8)">
+        <input type="button" value="7" onclick="slove(7)">
+        <input type="button" value="+" onclick="add()">
+        </div>
+        <div class="button">
+        <input type="button" value="6" onclick="slove(6)">
+        <input type="button" value="5" onclick="slove(5)">
+        <input type="button" value="4" onclick="slove(4)">
+        <input type="button" value="-" onclick="sub()">
+        </div>
+        <div class="button">
+        <input type="button" value="3" onclick="slove(3)">
+        <input type="button" value="2" onclick="slove(2)">
+        <input type="button" value="1" onclick="slove(1)">
+        <input type="button" value="x" onclick="multi()">
+    </div>
+    <div class="button">
+        <input type="button" value="0" onclick="slove(0)">
+        <input type="button" value="." onclick="slove()">
+        <input type="button" value="c" onclick="clear()">
+        <input type="button" value="=" onclick="result()">
+
+    </div>
+    </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
